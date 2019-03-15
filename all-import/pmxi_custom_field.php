@@ -50,5 +50,3 @@ function keep_existing_if_empty($value, $post_id, $key, $original_value, $existi
 }
 
 add_filter('pmxi_custom_field', 'keep_existing_if_empty', 10, 6);
-
-
